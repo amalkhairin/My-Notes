@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_notes/screens/editNotes/editNotes.dart';
 import 'package:my_notes/screens/home/components/cardNotes.dart';
 
 class DetailPage extends StatefulWidget {
@@ -27,7 +28,11 @@ class _DetailPageState extends State<DetailPage> {
           actions: <Widget>[
             IconButton(
               icon: Icon(Icons.edit, color: Colors.grey[700],),
-              onPressed: (){},
+              onPressed: (){
+                Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => EditNotes(child: widget.child,),)
+                );
+              },
             ),
             IconButton(
               icon: Icon(Icons.more_vert, color: Colors.grey[700],),

@@ -75,5 +75,26 @@ class _GridCardListState extends State<GridCardList> {
       date: "27/03/2020",
       tagColor: Colors.green,
     ),
+    CardNotes(
+      id: 7,
+      title: "Ini Title",
+      body: "Lorem ipsum dolorus. Ac metus pellentesque at scelerisque tellus eu eu quis neque. Tempus, nec etiam tempus pellentesque vitae ullamcorper lorem sed quam. Vel neque tellus interdum quam phasellus. Sit maecenas vitae sapien eleifend. Nisl, fames sit in et non velit, vitae. Placerat pulvinar etiam mus nunc habitant sapien eros. Pellentesque eget praesent cras elit arcu feugiat tortor auctor. Tellus vel diam consectetur luctus enim pellentesque ante nunc rutrum. Nibh quam vitae blandit lacus lorem viverra blandit. Id mi dis lacus, mauris massa et ultrices.",
+      date: "27/03/2020",
+      tagColor: Colors.blue,
+    ),
+    CardNotes(
+      id: 8,
+      title: "Ini Title",
+      body: "Lorem ipsum dolor sit amauris massa et ultrices.",
+      date: "27/03/2020",
+      tagColor: Colors.purple,
+    ),
+    CardNotes(
+      id: 9,
+      title: "Ini Title",
+      body: "Lorem ipsum dolor sit amauris massa et ultrices.",
+      date: "27/03/2020",
+      tagColor: Colors.purple,
+    ),
   ];
 }

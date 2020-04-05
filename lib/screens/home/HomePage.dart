@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_notes/screens/createNotes/createNotes.dart';
 
 import 'components/gridCardList.dart';
 
@@ -13,7 +14,11 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
-        onPressed: (){},
+        onPressed: (){
+          Navigator.of(context).push(
+            MaterialPageRoute(builder: (_)=> CreateNotes())
+          );
+        },
       ),
       backgroundColor: Colors.white,
       appBar: AppBar(
@@ -26,7 +31,8 @@ class _HomePageState extends State<HomePage> {
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.search, color: Colors.grey[700],),
-            onPressed: (){},
+            onPressed: (){
+            },
           )
         ],
       ),
